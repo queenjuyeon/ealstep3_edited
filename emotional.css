@@ -18,16 +18,16 @@ body{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 70vw) {
 /* 메인 이미지 */
   #mainImage {
         position: absolute;
         top: 52%;
         left: 55%;
         transform: translate(-50%, -50%);
-        width: 80vw;   /* 최대 가로폭 설정 */
+        width: 70vw;   /* 최대 가로폭 설정 */
         height: auto;  
-        max-height: 80vh;  /* 최대 세로 높이: 화면의 90% */
+        max-height: 80vh;
         object-fit: contain; /* 이미지 비율 유지하며 영역 내에 맞춤 */
         z-index: 10;
         transition: 0.3s ease;
@@ -62,8 +62,8 @@ body{
 
   /* 썸네일 이미지 */
   .thumbnails img {
-    width: 7vw;
-    height: 10vh;
+    width: 66vw;
+    height: 11vh;
     object-fit: cover;
     cursor: pointer;
     opacity: 0.3;
@@ -92,7 +92,7 @@ body{
   .category-buttons button {
     font-family: 'Pretendard', sans-serif;
       all: unset; /* 기본 버튼 스타일 제거 */
-      font-size: 1.7rem;
+      font-size: 1rem;
       cursor: pointer;
       text-align: left;
       color: white;
@@ -106,14 +106,14 @@ body{
 .back-button {
     position: fixed;
     top: 5vh;  /* 화면 높이의 5% */
-    left: 10vw;  /* 화면 너비의 10% */
+    left: 15vw;  /* 화면 너비의 10% */
     z-index: 1000;
     color: black;
     cursor: pointer;
     border: none;
     background: none;
     font-family: 'Pretendard', sans-serif;
-    font-size: 1.5rem;  /* 폰트 크기를 rem으로 설정 */
+    font-size: 0.8rem;  /* 폰트 크기를 rem으로 설정 */
     opacity: 0.5;
   }
 
