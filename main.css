@@ -12,7 +12,7 @@
 
 .emotion-menu-wrapper {
   position: fixed;
-  bottom: 190px;
+  bottom: 10vh;
   left: 5vh;
   z-index: 200;
 }
@@ -20,7 +20,7 @@
 .emotion-menu-trigger {
   background: cyan;
   padding: 4vw 3vw;
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
   border-radius: 0.5rem;
   opacity: 1;
