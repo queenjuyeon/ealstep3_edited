@@ -67,7 +67,7 @@
 .emotion-menu a {
   all: unset;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 1vh 2vw;
   cursor: pointer;
 }
