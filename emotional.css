@@ -62,7 +62,7 @@ body{
 
   /* 썸네일 이미지 */
   .thumbnails img {
-    width: 66vw;
+    width: 6vw;
     height: 11vh;
     object-fit: cover;
     cursor: pointer;
