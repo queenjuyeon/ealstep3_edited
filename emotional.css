@@ -93,7 +93,7 @@ body{
   .category-buttons button {
     font-family: 'Pretendard', sans-serif;
       all: unset; /* 기본 버튼 스타일 제거 */
-      font-size: 1rem;
+      font-size: 0.8rem;
       cursor: pointer;
       text-align: left;
       color: white;
@@ -106,7 +106,7 @@ body{
 
 .back-button {
     position: fixed;
-    top: 10vh; 
+    top: 8vh; 
     left: 15vw;
     z-index: 1000;
     color: black;
