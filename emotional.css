@@ -63,7 +63,7 @@ body{
   /* 썸네일 이미지 */
   .thumbnails img {
     width: 6vw;
-    height: 11vh;
+    height: 10vh;
     object-fit: cover;
     cursor: pointer;
     opacity: 0.3;
