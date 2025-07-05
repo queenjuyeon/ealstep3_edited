@@ -31,7 +31,7 @@ document.querySelectorAll('.thumb[data-type="youtube"]').forEach((thumb) => {
     img.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
     img.alt = 'YouTube Thumbnail';
     img.style.width = '7vw';
-    img.style.height = '9vh';
+    img.style.height = '9.5vh';
     img.style.objectFit = 'fill';
     img.style.cursor = 'pointer';
     thumb.appendChild(img);
@@ -122,7 +122,7 @@ buttons.forEach((button) => {
         img.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
         img.alt = 'YouTube Thumbnail';
         img.style.width = '7vw';
-        img.style.height = '9vh';
+        img.style.height = '9.5vh';
         img.style.objectFit = 'cover';
         img.style.cursor = 'pointer';
         thumb.appendChild(img);
